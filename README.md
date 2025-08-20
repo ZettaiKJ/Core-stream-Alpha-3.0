@@ -1,2 +1,2 @@
-# Core-stream-Alpha-3.0
-Finished version of corestream
+# Corestream-main
+Cuz bemi wont pull

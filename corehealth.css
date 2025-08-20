@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    /* background-color: chartreuse; */
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.logo {
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #1e293b;
+    height: 100%;
+    /* background-color: darkolivegreen; */
+    padding-left: 80px;
+}
+.logo2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #1e293b;
+    height: 100%;
+    /* background-color: darkolivegreen; */
+    padding-right: 80px;
+}
+
+.logo img {
+    height: 45px;
+    /* background-color: tomato; */
+    
+}
+.logo2 img {
+    height: 40px;
+    padding-bottom: 10px;
+    /* background-color: tomato; */
+}
+.logo2 h2{
+    color: #1744ae;
+    font-size: 1.5em;
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: 645;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    /* background-color: palevioletred; */
+}
+header img{
+    width: 100%;
+}
+
+.about{
+    width: 100%;
+    height: 550px;
+    /* background-color: teal; */
+    padding-top: 60px;
+   
+}
+.about h1{
+    text-align: center;
+    font-weight: 500;
+   
+    margin-bottom: 0;
+}
+.about p{
+    text-align: center;
+    font-size: 17px;
+    color: #64748b;
+    margin-top: 0;
+}
+.about-main{
+    width: 100%;
+    height: 100%;
+    /* background-color: firebrick; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-img{
+    width: 25%;
+    height: 85%;
+    /* background-color: sienna; */
+    
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.about-text{
+    width: 50%;
+    height: 80%;
+    /* background-color: powderblue; */
+    font-size: 21px;
+    font-weight: 500;
+    color: #64748b;
+    display: flex;
+    align-items: center;
+}
+
+.key{
+    width: 100%;
+    height: 550px;
+     /* background-color: darkseagreen;   */
+     margin-top: 70px;
+    padding-top: 60px;
+}
+
+.key h1{
+text-align: center;
+    font-weight: 500;
+   
+    margin-bottom: 0;
+}
+
+.key p{
+ text-align: center;
+    font-size: 17px;
+    color: #64748b;
+    margin-top: 0;
+
+}
+
+.features{
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.feature{
+    width: 28%;
+    height: 35%;
+    /* background-color: palevioletred; */
+    background: #f9fafb; /* keeps it clean */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+    
+}
+
+.feature:hover {
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.feature p {
+    margin-top: 10px;
+    text-align: center;
+    color: #64748b;
+}
+.demo{
+    width: 100%;
+    height: 450px;
+    /* background-color: lightcoral; */
+    margin-top: 140px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("pics/istockphoto-1027751894-1024x1024z.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.demo p{
+    text-align: center;
+    font-size: 25px;
+    color: #f9fafb;
+    margin-top: 0;
+    padding-top: 20px;
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.doit{
+    background-color: white;
+    width: 150px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 550;
+}
+.doit:hover{
+    background-color: #1744ae;
+    color: white;
+    cursor: pointer;
+    border: #000042 solid 2px;
+}
+.getit{
+    background-color: #1744ae;
+    width: 150px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+}
+.getit:hover{
+    background-color: #1744ae;
+    color:  white;
+    cursor: pointer;
+    border: #000042 solid 2px;
+}
+footer{
+    width: 100%;
+    /* height: 450px; */
+    /* background-color: turquoise; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.address{
+    width: 49%;
+    height: 90%;
+    /* background-color: palegoldenrod; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin: 50px;
+    padding-left: 40px;
+}
+
+.logoz{
+      display: flex;
+    /* align-items: center; */
+    /* gap: 10px; */
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #1e293b;
+    /* height: 100%; */
+    /* background-color: darkolivegreen; */
+    padding-right: 80px;
+    margin-bottom: 20px;
+}
+.logoz img{
+    height: 50px;
+    
+}
+.logoz h2{
+     color: #1744ae;
+    font-size: 1.5em;
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 645;
+    text-align: left;
+}
+.address p{
+    font-size: 20px;
+    color: #78748b;
+    margin-top: 0;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.someotherstuffs{
+    width: 49%;
+    height: 100%;
+    /* background-color: goldenrod; */
+    display: flex;
+    align-items: center;
+}
+
+.key-links{
+    width: 100%;
+    height: 80%;
+    /* background-color: lightslategray; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.key_features{
+    width: 40%;
+    height: 80%;
+    /* background-color: deepskyblue; */
+
+}
+.key_features h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+.key_features p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #6474a9;
+}
+.key_features p:hover{
+     color: black;
+}
+.quick{
+    width: 40%;
+    height: 80%;
+    /* background-color: peru; */
+}
+.quick h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.quick p{
+     font-size: 18px;
+    font-weight: 400;
+    color: #6474a9;
+}
+
+.quick :hover{
+    color: black;
+}
+
+.bottom{
+    width: 100%;
+    height: 65px;
+    background-color: #f9fafb;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #64748a;
+    
+}
